@@ -3,7 +3,7 @@ name: Exemplo de workflow
 on:
   workflow_dispatch:
   schedule:
-    - cron: "O 22 * * 5"
+    - cron: O 22 * * 5
   push:
     branches: [ main ] 
     tags:
