@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-  runs-on: ubuntu-latesr
+  runs-on: ubuntu-latest
   steps:
     - uses: action/chechout@v4
 
